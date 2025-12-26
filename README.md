@@ -1,105 +1,92 @@
-📝 Task Manager App (MERN Stack)
+# 📝 Task Manager App (MERN Stack)
 
-A full-stack Task Manager Application built using the MERN Stack that helps users create, assign, track, and manage tasks efficiently with role-based access control.
+A full-stack **Task Manager Application** built using the **MERN Stack** that helps users create, assign, track, and manage tasks efficiently with **role-based access control**.
 
-📌Description
+---
 
-This project is a real-world Task Management System developed using modern MERN stack practices.
-It supports Admin & Member roles, secure authentication, task assignment, progress tracking, and reporting.
+## 📌 Description
 
-The app is designed with scalable architecture, clean UI, and production-ready features.
+This project is a real-world **Task Management System** developed using modern **MERN stack** practices.
 
-🛠 Technologies Used
-Frontend
+It supports **Admin & Member roles**, secure authentication, task assignment, progress tracking, and reporting.
 
-React.js (Vite)
+The application is designed with:
+- Scalable architecture
+- Clean & modern UI
+- Production-ready features
 
-Tailwind CSS
+---
 
-Axios
+## 🛠️ Technologies Used
 
-React Router DOM
+### 🔹 Frontend
+- ⚛️ React.js (Vite)
+- 🎨 Tailwind CSS
+- 🔗 Axios
+- 🧭 React Router DOM
+- 🌐 Context API
 
-Context API
+### 🔹 Backend
+- 🟢 Node.js
+- 🚀 Express.js
+- 🍃 MongoDB (Mongoose)
+- 🔐 JWT Authentication
+- 📁 Multer (Image Uploads)
+- 🔑 bcryptjs
 
-Backend
+### 🔹 Deployment
+- ☁️ Render (Frontend & Backend)
+- 🗄️ MongoDB Atlas
 
-Node.js
+---
 
-Express.js
+## ✨ Features
 
-MongoDB (Mongoose)
+### 👤 Authentication & Authorization
+- User Signup & Login
+- JWT-based authentication
+- Role-based access (**Admin / Member**)
+- Admin Invite Token support
 
-JWT Authentication
+### 📋 Task Management
+- Create, Update & Delete tasks
+- Assign tasks to multiple users
+- Task status tracking:
+  - Pending
+  - In Progress
+  - Completed
+- Priority levels:
+  - Low
+  - Medium
+  - High
+- Due date support
 
-Multer (for image uploads)
+### ✅ Todo Checklist
+- Add checklist items per task
+- Mark checklist items as completed
+- Auto task progress calculation
 
-bcryptjs
+### 📎 Attachments
+- Add external links as task attachments
+- Attachment count visible on task cards
 
-Deployment
+### 👥 User Management (Admin Only)
+- View all users
+- Delete users
+- Self-deletion prevention
 
-Render (Frontend & Backend)
+### 🖼️ Profile Handling
+- Profile image upload (local storage)
+- Default avatar fallback
+- Letter-based avatar fallback for production safety
 
-MongoDB Atlas
+### 📊 Reports
+- Export task reports in **Excel format**
 
-✨ Features
-👤 Authentication & Authorization
+---
 
-User Signup & Login
+## 📂 Project Structure
 
-JWT-based authentication
-
-Role-based access (Admin / Member)
-
-Admin Invite Token support
-
-📋 Task Management
-
-Create, Update & Delete tasks
-
-Assign tasks to multiple users
-
-Task status tracking (Pending / In Progress / Completed)
-
-Priority levels (Low / Medium / High)
-
-Due date support
-
-✅ Todo Checklist
-
-Add checklist items per task
-
-Mark checklist items as completed
-
-Auto task progress calculation
-
-📎 Attachments
-
-Add external links as task attachments
-
-Attachment count visible on task cards
-
-👥 User Management (Admin Only)
-
-View all users
-
-Delete users
-
-Self-deletion prevention
-
-🖼 Profile Handling
-
-Profile image upload (local)
-
-Default avatar fallback
-
-Letter-based avatar fallback for production safety
-
-📊 Reports
-
-Export task reports in Excel format
-
-📂 Project Structure
 task-manager/
 ├── backend/
 │   ├── controllers/
@@ -117,10 +104,13 @@ task-manager/
 │   ├── utils/
 │   └── main.jsx
 
-🔐 Environment Variables (Backend)
+---
 
-Create a .env file inside the backend folder:
+## 🔐 Environment Variables (Backend)
 
+Create a `.env` file inside the **backend** folder:
+
+.env file-----------
 PORT=5000
 MONGO_URI=your_mongodb_connection
 JWT_SECRET=your_jwt_secret
@@ -129,25 +119,24 @@ CLIENT_URL=https://task-manager-app-hpgs.onrender.com
 
 💻 How to Run Locally
 1️⃣ Clone the Repository
-git clone https://github.com/ajaycoder01/task-manager.git
+ - git clone https://github.com/ajaycoder01/task-manager.git
 2️⃣ Backend Setup
-cd backend
-npm install
-npm run dev
+ -  cd backend
+ -  npm install
+ -  npm run dev
 3️⃣ Frontend Setup
-
+ - cd frontend
+ - npm install
+ - npm run dev
+   
 🧠 Important Notes
-
-Render uses ephemeral storage, so uploaded files may not persist.
-
-Avatar fallback system is implemented for production stability.
-
-For permanent image storage, Cloudinary or AWS S3 can be integrated.
-
+ - Render uses ephemeral storage, so uploaded files may not persist.
+ - Avatar fallback system is implemented for production stability.
+ - For permanent image storage, Cloudinary or AWS S3 can be integrated.
+   
 ⭐ Show Your Support
-
-If you like this project, please ⭐ the repository!
+ * Agar project pasand aaye, toh repository ko ⭐ star zaroor kare.
 
 🔥 Final Note
-
-This project is built to demonstrate real-world MERN stack skills, clean architecture, and production-ready practices.
+ * This project is built to demonstrate real-world MERN stack skills,
+   clean architecture, and production-ready practices.
