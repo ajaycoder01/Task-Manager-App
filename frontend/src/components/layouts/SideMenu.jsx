@@ -44,8 +44,8 @@ const profileImage =
       : `${BASE_URL}/${user.profileImageUrl}` //  relative path
     : defaultAvatar;
 
-console.log("User object:", user);
-console.log("Profile image URL:", user?.profileImageUrl);
+// console.log("User object:", user);
+// console.log("Profile image URL:", user?.profileImageUrl);
 
   return (
     <>
