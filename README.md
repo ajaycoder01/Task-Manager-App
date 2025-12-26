@@ -86,7 +86,7 @@ The application is designed with:
 ---
 
 ## 📂 Project Structure
-
+```
 task-manager/
 ├── backend/
 │   ├── controllers/
@@ -104,18 +104,21 @@ task-manager/
 │   ├── utils/
 │   └── main.jsx
 
+```
 
 ---
 
 ## 🔐 Environment Variables (Backend)
 
 Create a `.env` file inside the **backend** folder:
-
+```
 .env file-----------
 - PORT=5000
 - MONGO_URI=your_mongodb_connection
 - JWT_SECRET=your_jwt_secret
 - ADMIN_INVITE_TOKEN=your_admin_secret
+
+```
 
 💻 How to Run Locally
 1️⃣ Clone the Repository
