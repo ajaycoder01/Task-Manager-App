@@ -26,8 +26,8 @@ const registerUser = async (req, res) => {
       role = "admin";
     }
 
-    console.log("Received token:", adminInviteToken);
-console.log("Env token:", process.env.ADMIN_INVITE_TOKEN);
+   // console.log("Received token:", adminInviteToken);
+// console.log("Env token:", process.env.ADMIN_INVITE_TOKEN);
 
     // Hash password
     const salt = await bcrypt.genSalt(10);
