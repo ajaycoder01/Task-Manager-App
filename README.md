@@ -111,11 +111,10 @@ task-manager/
 Create a `.env` file inside the **backend** folder:
 
 .env file-----------
-PORT=5000
-MONGO_URI=your_mongodb_connection
-JWT_SECRET=your_jwt_secret
-ADMIN_INVITE_TOKEN=your_admin_secret
-CLIENT_URL=https://task-manager-app-hpgs.onrender.com
+- PORT=5000
+- MONGO_URI=your_mongodb_connection
+- JWT_SECRET=your_jwt_secret
+- ADMIN_INVITE_TOKEN=your_admin_secret
 
 💻 How to Run Locally
 1️⃣ Clone the Repository
