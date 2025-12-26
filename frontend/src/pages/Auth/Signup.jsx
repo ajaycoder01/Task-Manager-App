@@ -3,7 +3,7 @@
 
 import React, { useContext, useState } from "react";
 import AuthLayout from "../../components/layouts/AuthLayout";
-import ProfilePhotoSelector from "../../components/Inputs/ProfilePhotoSelector";
+// import ProfilePhotoSelector from "../../components/Inputs/ProfilePhotoSelector";
 import Input from "../../components/Inputs/Input";
 import { Link, useNavigate } from "react-router-dom";
 import { API_PATHS } from "../../utils/apiPaths";
@@ -81,7 +81,7 @@ function Signup() {
         </p>
 
         <form onSubmit={handleSignup}>
-          <ProfilePhotoSelector image={profilPic} setImage={setProfilePic} />
+          {/* <ProfilePhotoSelector image={profilPic} setImage={setProfilePic} /> */}
 
           <div className="grid md:grid-cols-2 gap-4">
             <Input
