@@ -34,12 +34,18 @@ const registerUser = async (req, res) => {
     const hashedPassword = await bcrypt.hash(password, salt);
 
     //  PROFILE IMAGE LOGIC (MAIN FIX)
-    let profileImageUrl = "uploads/default-avatar.png";
+    // let profileImageUrl = "uploads/default-avatar.png";
+
+    // if (req.file) {
+    //   profileImageUrl = `uploads/${req.file.filename}`;
+    // }
+    const baseUrl = `${req.protocol}://${req.get("host")}`;
+
+    let profileImageUrl = `${baseUrl}/uploads/default-avatar.png`;
 
     if (req.file) {
-      profileImageUrl = `uploads/${req.file.filename}`;
+      profileImageUrl = `${baseUrl}/uploads/${req.file.filename}`;
     }
-
     // Create user
     const user = await User.create({
       name,
