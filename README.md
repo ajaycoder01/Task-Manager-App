@@ -119,18 +119,18 @@ Create a `.env` file inside the **backend** folder:
 - ADMIN_INVITE_TOKEN=your_admin_secret
 
 ```
-
-💻 How to Run Locally
-1️⃣ Clone the Repository
- - git clone https://github.com/ajaycoder01/task-manager.git
-2️⃣ Backend Setup
+## Backend Setup
+```
  -  cd backend
  -  npm install
  -  npm run dev
-3️⃣ Frontend Setup
+```
+## Frontend Setup
+```
  - cd frontend
  - npm install
  - npm run dev
+```
    
 🧠 Important Notes
  - Render uses ephemeral storage, so uploaded files may not persist.
