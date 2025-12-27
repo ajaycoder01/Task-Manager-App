@@ -131,6 +131,23 @@ Create a `.env` file inside the **backend** folder:
  - npm install
  - npm run dev
 ```
+## 📸 Screenshots (Task Manager App)
+
+##🔑 Login / 🧑➕ Signup Pages 
+<p align="center">
+  <img src="screenshot/login.png" width="40%" />
+  <img src="screenshot/signup.png" width="40%" />
+</p>
+
+##📊 Dashboard 
+<p align="center">
+  <img src="screenshot/dashboard.png" width="80%" />
+</p>
+
+##📝 Task Details /👤➕ Assign 
+<p align="center">
+  <img src="screenshot/task-details-assign.png" width="80%" />
+</p>
    
 🧠 Important Notes
  - Render uses ephemeral storage, so uploaded files may not persist.
